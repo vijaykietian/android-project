@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">MyJavaMVVMArchitecture</string>
+    <string name="title_ringer">Ringer Mode</string>
+    <string name="title_wishes">First to Wish</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="location_name">Location Name : </string>
+    <string name="input_location_name">Input Location Name : </string>
+    <string name="location_latitude">Latitude : </string>
+    <string name="hint_location_latitude">Location Latitude</string>
+    <string name="location_longitude">Longitude : </string>
+    <string name="hint_location_longitude">Location Longitude</string>
+    <string name="get_location">Get Location</string>
+    <string name="save_location">Save</string>
+    <string name="empty_not_saved">Location not saved because it is empty.</string>
+    <string name="no_location_detected">No location detected. Make sure location is enabled on the device.</string>
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+
+
+    <!-- Error strings -->
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents"></string>
+
+    <string name="unknown_geofence_error">
+        Unknown error: the Geofence service is not available now
+    </string>
+    <string name="geofence_transition_invalid_type">
+        Geofence transition error: invalid transition type %1$d
+    </string>
+    <!-- Transition type strings -->
+    <string name="geofence_transition_entered">Entered</string>
+    <string name="geofence_transition_exited">Exited</string>
+    <string name="unknown_geofence_transition">Unknown Transition</string>
+
+    <string name="geofence_transition_notification_text">
+        Click notification to return to app
+    </string>
+
+</resources>
